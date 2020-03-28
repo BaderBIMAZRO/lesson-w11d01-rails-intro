@@ -161,7 +161,7 @@ To delete a migration:
 rails destroy migration NameOfMigration
 ```
 
-* It is advisable only to delete the final migration, and that that migration has not already been run. This is because successive migrations usually depend on one another.
+* It is advisable only to delete the final migration, and that if the migration has not already been run. This is because successive migrations usually depend on one another.
 
 Shorthand, `destroy` can be written as `d`:
 
